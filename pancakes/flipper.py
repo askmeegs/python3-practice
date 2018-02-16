@@ -21,15 +21,10 @@ Case #2: 0
 Case #3: IMPOSSIBLE
 """
 
-
-
-
-
-
-
 def solveFile(fname):
     with open(fname) as f:
         input = f.readlines()
+        f.rea
         input = [x.strip() for x in input]
     output = []
     for i, case in enumerate(input):
