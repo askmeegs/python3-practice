@@ -36,6 +36,21 @@ def solveFile(fname):
         outfile.write("%s\n" % item)
 
 
+"""
+How many possible individual flips are there if you have a string S of length N, and a flipper of length K?
+
+<------ N ------>
+<- K ->
+
+Total # flips = N-K+1 (+1 is the starting line state, at index 0 of S.)
+
+
+
+Given that, how many possible configuartions
+
+
+"""
+
 def calcFlips(i, case):
     n = -1
 
